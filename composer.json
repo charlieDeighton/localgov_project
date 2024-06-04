@@ -35,7 +35,6 @@
     "prefer-stable": true,
     "config": {
         "sort-packages": true,
-        "bin-dir": "bin/",
         "allow-plugins": {
             "composer/installers": true,
             "cweagans/composer-patches": true,
@@ -48,6 +47,9 @@
     },
     "extra": {
         "enable-patching": true,
+        "patchLevel": {
+          "drupal/core": "-p2"
+        },
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"
