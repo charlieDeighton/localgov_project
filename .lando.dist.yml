@@ -23,11 +23,11 @@ services:
       environment:
         DRUSH_OPTIONS_ROOT: '/app/web'
         DRUSH_OPTIONS_URI: 'https://localgov.lndo.site'
-        SIMPLETEST_BASE_URL: 'https://localgov.lndo.site'
+        SIMPLETEST_BASE_URL: 'http://localgov.lndo.site'
         SIMPLETEST_DB: 'mysql://database:database@database/database'
-        MINK_DRIVER_ARGS_WEBDRIVER: '["chrome", {"browserName":"chrome","chromeOptions":{"args":["--disable-gpu","--headless","--no-sandbox"]}}, "http://chromedriver:9515"]'
+        MINK_DRIVER_ARGS_WEBDRIVER: '["chrome", {"browserName": "chrome", "goog:chromeOptions": {"args": ["--disable-gpu","--headless", "--no-sandbox", "--disable-dev-shm-usage"]}}, "http://chromedriver:9515"]'
         BROWSERTEST_OUTPUT_DIRECTORY: '/app/web/sites/simpletest/browser_output'
-        BROWSERTEST_OUTPUT_BASE_URL: 'https://localgov.lndo.site'
+        BROWSERTEST_OUTPUT_BASE_URL: 'http://localgov.lndo.site'
         # Support debugging CLI with Xdebug.
         PHP_IDE_CONFIG: "serverName=appserver"
         XDEBUG_SESSION: "lando"
