@@ -68,6 +68,11 @@
                 "[web-root]/sites/development.services.yml": "assets/composer/development.services.yml"
             }
         },
+        "patches-ignore": {
+            "drupal/core": {
+                "node_access filters out accessible nodes when node is left joined (1349080)" : "^10.3"
+            }
+        },
         "installer-paths": {
             "web/core": ["type:drupal-core"],
             "web/libraries/{$name}": ["type:drupal-library"],
