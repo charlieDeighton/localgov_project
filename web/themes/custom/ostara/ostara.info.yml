@@ -9,11 +9,11 @@ libraries-extend:
   # of those extending localgov_base/global
   localgov_base/global:
     - ostara/variables
+    - ostara/sample-library
     # - ostara/other-library-to-load-on-every-page
     # - ostara/other-library-to-load-on-every-page
   # Add libraries here that extend specific libraries.
-  localgov_base/sample-library:
-    - ostara/sample-library
+  # localgov_base/:
 
 regions:
   tabs: "Tabs"
