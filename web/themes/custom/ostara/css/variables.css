@@ -33,7 +33,7 @@
     hotpink, just set `--color-accent: hotpink;`
 */
 body {
-  --color-accent: hotpink;
+  /* --color-accent: hotpink; */
   --font-secondary: georgia, var(--font-primary);
   --line-height: 1.3;
 }
