@@ -5,3 +5,7 @@ body {
 .box-link__link {
     color: pink !important;
 }
+
+.menu--main > .menu-item a {
+    color: var(--primary) !important;
+  }
