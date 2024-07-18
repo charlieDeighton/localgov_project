@@ -1,3 +1,7 @@
+body {
+    --color-accent: hotpink;
+}
+
 .box-link__link {
     color: pink !important;
 }
