@@ -8,7 +8,7 @@ libraries-extend:
   # Add libraries that you want to load on every page of your site to the list
   # of those extending localgov_base/global
   localgov_base/global:
-    # - ostara/sample-library
+    - ostara/sample-library
     - ostara/variables
     # - ostara/other-library-to-load-on-every-page
     # - ostara/other-library-to-load-on-every-page
