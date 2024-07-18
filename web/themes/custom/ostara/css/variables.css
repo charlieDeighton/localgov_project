@@ -34,6 +34,8 @@
 */
 body {
   /* --color-accent: hotpink; */
-  --font-secondary: georgia, var(--font-primary);
+  --primary: #5867ab;
+  --color-section-header-bg: v
+  --font-secondary: var(--primary);
   --line-height: 1.3;
 }
