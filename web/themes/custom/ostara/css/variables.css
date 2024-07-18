@@ -44,7 +44,7 @@ body {
   --header-services-button-color: var(--primary);
   /* --header-services-button-bg-color: var(--primary-50); */
   --header-services-button-border: none;
-  --header-services-button-bg-color-hover: var(--primary-50)
-  --button-border-radius: var(--radius)
+  --header-services-button-bg-color-hover: var(--primary-50);
+  --button-border-radius: var(--radius);
 }
 
