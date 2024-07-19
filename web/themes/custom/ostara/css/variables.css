@@ -45,6 +45,8 @@ body {
   /* --header-services-button-bg-color: var(--primary-50); */
   --header-services-button-border: none;
   --header-services-button-bg-color-hover: var(--primary-50);
+  --header-services-button-color-hover: var(--color-black);
   --button-border-radius: var(--radius);
+  --color-focus: var(--primary-50)
 }
 

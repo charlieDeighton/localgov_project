@@ -8,4 +8,12 @@ body {
 
 .menu--main > .menu-item a {
     color: var(--primary) !important;
-  }
+}
+
+.region-secondary-menu .menu-item > a {
+    padding: 0.25rem;
+}
+
+a:not([class*="toolbar"]):focus {
+    box-shadow: 0 -2px var(--color-focus),0 4px var(--primary);
+}
