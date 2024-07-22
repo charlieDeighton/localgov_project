@@ -1,0 +1,8 @@
+{# field--field-primary-link.html.twig #}
+{# {{ dump() }} #}
+
+{% for item in items %}
+  <a href="{{ item.content['#url'] }}" {{ item.attributes.addClass('button-link')}}>
+    {{ item.content["#title"] }}
+  </a>
+{% endfor %}
