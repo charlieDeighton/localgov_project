@@ -38,6 +38,7 @@ body {
   --primary-50: rgba(88, 103, 171, 0.2);
   --primary: #5867ab;
   --primary-dark: #4c5997;
+  --secondary: #6aa5c2;
   --muted-text: #363636;
   --font-primary: "Museo Sans Rounded", sans-serif;
   --font-secondary: "Lato" ,var(--font-primary);

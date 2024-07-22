@@ -2,10 +2,6 @@ body {
   --color-accent: blue;
 }
 
-.box-link__link {
-  color: pink !important;
-}
-
 .menu--main > .menu-item a {
   color: var(--primary) !important;
 }
@@ -95,6 +91,25 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6, .viewsreference--view-title {
   color: var(--primary);
+}
+
+.viewsreference--view-title {
+  font-size: var(--font-size-h2) !important;
+  font-weight: var(--heading-2-font-weight);
+  font-family: var(--font-secondary);
+}
+
+.tns-outer p {
+  width: 50%;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-wrap: wrap;
+  font-family: var(--font-primary) !important;
+  text-align: left !important;
+}
+
+.tns-nav {
+  text-align: left !important;
 }
