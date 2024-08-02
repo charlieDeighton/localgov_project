@@ -23,3 +23,7 @@ sample-library:
 #   css:
 #     theme:
 #       css/sample.css: {}
+
+article-content:
+  js:
+    js/CustomTextRenderArticle.js: {}

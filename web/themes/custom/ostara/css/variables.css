@@ -35,11 +35,13 @@
 @import url('https://fonts.cdnfonts.com/css/museo-sans-rounded');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 body {
+  --primary-10: rgba(88, 103, 171, 0.1); 
   --primary-50: rgba(88, 103, 171, 0.2);
+  --primary-100: rgba(88, 103, 171, 0.3);
   --primary: #5867ab;
   --primary-dark: #4c5997;
   --secondary: #6aa5c2;
-  --muted-text: #363636;
+  --muted-text: #515151;
   --font-primary: "Museo Sans Rounded", sans-serif;
   --font-secondary: "Lato" ,var(--font-primary);
   --line-height: 1.3;
@@ -53,6 +55,9 @@ body {
   --header-services-button-bg-color-hover: var(--primary-50);
   --header-services-button-color-hover: var(--color-black);
   --button-border-radius: var(--radius);
-  --color-focus: var(--primary-50)
+  --color-focus: var(--primary-50);
+
+  /* --width-container: calc(100% - var(--spacing-padding-horizontal)* 6); */
+  --color-section-pre-footer-bg: var(--primary);
 }
 
